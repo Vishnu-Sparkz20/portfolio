@@ -70,12 +70,13 @@ animation: slideRight 1s ease forwards;
 }
 
 .home-content{
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .home-content h3{
     font-size: 30px;
     font-weight: 700;
+    width:100%;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
@@ -162,13 +163,18 @@ animation: slideRight 1s ease forwards;
 
 .about-img img{
  
-    padding: 15% 0 20% 10%;
+    padding: 10% 10% 10% 10%;
     max-width: 600px;
     height:auto;
     width: 100%;
-    border-radius: 50px;
+    border-radius: 50%;
     
 
+}
+
+.about-text{
+  margin-top: 20px;
+ 
 }
 
 .about-text h2{
@@ -406,18 +412,6 @@ width: 80%;
 
 }
 
-.layer h4:nth-of-type(2){
-    text-align: left;
-    
-    margin-left: 18px;
-    margin-bottom: 3rem;
-}
-
-.layer h4 span{
-    color: cyan;
-    
-    
-}
 
 .layer h4{
     font-size: 20px;
