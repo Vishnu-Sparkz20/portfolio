@@ -302,7 +302,7 @@ width: 60%;
 }
 .progress-line.javascript span
 {
-width: 50%;
+width: 40%;
 }
 .progress-line.java span
 {
@@ -335,7 +335,7 @@ width: 80%;
 }
 .progress-line.javascript span::after
 {
-    content: "50%";
+    content: "40%";
 }
 .progress-line.java span::after
 {
